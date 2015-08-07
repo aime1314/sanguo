@@ -1,0 +1,378 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>预热已加入</title>
+<link href="../css/common.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript">
+	$(function(){
+		
+		function toDouble(num){
+			if(num<10){
+				return '0'+num;
+			}else{
+				return ''+num;
+			}
+		}
+	   var oImg=document.getElementById('div1_index').getElementsByTagName('img');
+		function GetRTime(){
+		   var EndTime= new Date('2014/11/4 23:59:00'); //截止时间3/
+		   var NowTime = new Date();
+		   var t =EndTime.getTime() - NowTime.getTime();
+		   var d=Math.floor(t/1000/60/60/24);
+		   var h=Math.floor(t/1000/60/60%24);
+		   var m=Math.floor(t/1000/60%60);
+		   var s=Math.floor(t/1000%60);
+		   var str1=toDouble(d)+toDouble(h)+toDouble(m)+toDouble(s);
+		   for(var i=0;i<oImg.length;i++){
+				oImg[i].src='images/'+str1.charAt(i)+'.png';
+		   }
+		    
+	   }
+	   setInterval(GetRTime,0);
+	   GetRTime();
+		
+		})
+	
+</script>
+</head>
+<body>
+<div class="niwdoawi_top mw_1180">
+	<div class="header w1190 clearfix">
+        <div class="fl tel">
+        	<!--<a href="javascript:;" onClick="addFavorite()" class="fav fl"></a>
+            <img src="images/tel.jpg" width="16" height="30"/>-->
+            <img src="images/tel.jpg" width="16" height="30"/><em class="fs_14 mr_5">客服热线</em><i class="aril">400-791-0888</i>
+            <span class="iphone"><i></i><a href="#">手机客户端</a></span>
+            <span class="hover_sina">
+            	<a href="#"></a>
+            </span>
+            <span class="hover_weixin toptk">
+            	<div class="tk" style="display:none;">
+                	
+                </div>
+            </span>
+        </div>
+        <div class="fr login clearfix">
+        	<div class="login_bt">
+            	<!--<a href="#" title="登录" class="fff">登录</a>
+                <a href="#" title="注册" class="fff">注册</a>-->
+                <em class="fff fs_12">您好，</em><a href="#" title="您好，yeshuangdong" class="hello">yeshuangdong111</a>
+                <a href="#" title="您好，yeshuangdong" class="hello">退出</a>
+                
+            </div>
+            
+            <dl>
+                <dt><a href="#" title="账户中心" class="txnone">账户中心</a></dt>
+                <dd><a href="#" title="充值">充值</a></dd>
+                <dd><a href="#" title="提现">提现</a></dd>
+                <dd><a href="#" title="我的投资">我的投资</a></dd>
+                <dd><a href="#" title="我的提现">我的提现</a></dd>
+                
+            </dl>
+        </div>
+    </div>
+</div><!--登录-->
+<div class="niwdoawi_center mw_1180">
+	<div class="w1190 logo clearfix">
+    	<a href="#" title="你我贷，有钱没钱，找你我贷" class="fl pl_20"><img src="images/logo1200.jpg" width="365" height="52" alt="你我贷"/></a>
+        <div class="fr righ">
+        	<ul class="nav clearfix">
+            	<li>
+                	<a href="#" title="首页" class="one">首页</a>
+                </li>
+                <li class="two">
+                	<a href="#" title="我要投资" class="two">我要投资</a>
+                    <dl>
+                    	<dd><a href="#">散标列表</a></dd>
+                        <dd><a href="#">债权转让</a></dd>
+                        <dd><a href="#">嘉财有道</a></dd>
+                    </dl>
+                </li>
+                <!--<li>
+                	<a href="#" title="我要投资" class="two">我要投资</a>
+                    <dl>
+                    	<dd><a href="#">散标列表</a></dd>
+                        <dd><a href="#">债权转让</a></dd>
+                        <dd><a href="#">嘉财有道</a></dd>
+                    </dl>
+                </li>-->
+                <li class="rela">
+                	<i class="hot"></i>
+                	<a href="#" title="我要借款" class="one">我要借款</a>
+                </li>
+                
+                <li class="two">
+                	<a href="#" title="关于我们" class="two">关于我们</a>
+                    <dl>
+                    	<dd><a href="#">公司简介</a></dd>
+                        <dd><a href="#">高管团队</a></dd>
+                        <dd><a href="#">新手起航</a></dd>
+                    </dl>
+                </li>
+                <li style="margin-right:0;">
+                	<a href="#" title="社区" class="one">社区 </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div><!--nav-->
+<div class="sg-main">
+	<div class="sg-topbanner">
+    	<div class="sg-diaopai"></div>
+    </div>
+	<div class="big-main">
+		
+    <div class="clearfix sg-con sg-pd">
+    	<div class="suc-team sg-ml">
+        	<span class="show-addPic">&nbsp;</span>
+        	<ul>
+            	<li class="select"><a href="##" class="wei">魏国</a></li>
+                <li class=""><a href="##" class="shu">蜀国</a></li>
+                <li class=""><a href="##" class="wu">吴国</a></li>
+            </ul>
+        </div>
+        <div class="sg-r">
+        	<div class="sg-teamshow"> 
+                <p><span class="span-title">所属阵营：</span> <span class="span-Meg">魏国</span></p>
+                <p><span class="span-title">我的活动总金额：</span><span class="span-Meg">65,000,000元</span></p> 
+                <p><span class="span-title">嘉财有道投资额：</span><span class="span-Meg">5,000,000元</span></p>
+                <p><span class="span-title">嘉财有道预定额：</span><span class="span-Meg">0元</span></p>
+                <p><span class="span-title">定金：</span><span class="span-Meg">0元</span></p>
+                <p><a href="javascript:void(0);" class="list-show" onClick="showContent_0()">查看记录</a></p>
+        	</div>
+            <div class="sg-tips">注：活动总金额=嘉财有道投资额+嘉财有道预定额</div>
+        </div>
+        
+    </div>
+    
+    <div class="clearfix sg-con">
+    	<div class="sg-no1 sg-pd" id="top1">
+        	<p class="sg-pd"><img src="images/sg_03.jpg" name="j1" id="j1"></p>
+            <div class="sg-no1-Meg sg-ml"><span class="span-word"><strong>11月1日-11月11日</strong>投资/预定嘉财有道  享年化<strong style="font-size:42px; font-weight:bold;">0.5%</strong>返现</span><a href="##">马上投资</a></div>
+        </div>
+    	
+    </div>
+    
+    <div class="clearfix sg-con" id="top2">
+    	<div class="sg-no2 sg-pd">
+        	<p class="sg-pd sg-pt"><img src="images/sg_14.jpg" name="j2" id="j2"></p>
+        	<div class="sg-ml sg-about"><strong>神机妙算奖获得者</strong>是指当天的参与活动用户可在<span>20:00至20:59</span>竞猜所属阵营活动总金额，竞猜金额最接近实际活动总金额者获胜。<br>
+        	  预热期间<span>11月1日至11月4日</span>投资嘉财有道可于<span>11月5日</span>参与本活动！<a  href="javascript:void(0);" onClick="showContent_1()">详细规则&gt;</a></div>
+        	<div class="sg-ml  sg-pt sg-goods clearfix">
+                <ul class="clearfix" style="width:540px;">
+                	<li>
+                    	<p>一等奖</p>
+                        <img src="images/sg_06.jpg">
+                        <p>iPhone6手机</p>
+						<span>每日各阵营第一名</span>
+                    </li>
+                    <li>
+                    	<p>二等奖</p>
+                        <img src="images/sg_30.jpg">
+                        <p>iPad mini</p>
+						<span>每日各阵营第二名</span>
+                    </li>
+                    <li>
+                    	<p>三等奖</p>
+                        <img src="images/sg_30.jpg">
+                        <p>iPad mini</p>
+						<span>每日各阵营第三名</span>
+                    </li>
+                </ul>
+                <div class="sg-date">
+                	<h2>距离活动开始还剩：</h2>
+                    <div class="timeBox" id="div1_index"><img src="images/0.png"/><img src="images/1.png"/>天<img src="images/0.png"/><img src="images/1.png"/>:<img src="images/2.png"/><img src="images/4.png"/>:<img src="images/4.png"/><img src="images/7.png"/>
+                    </div>
+              </div>
+        	</div>
+        </div>
+    	
+    </div>
+    
+    <div class="clearfix sg-con" id="top3">
+    	<div class="sg-no3 sg-pd">
+        	<p class="sg-pd sg-pt"><img src="images/sg_17.jpg" name="j3" id="j3"></p>
+        	<div class="sg-ml sg-about"><strong>决胜千里奖获得者</strong>为各阵营当日活动总金额最高者。预热期间<span>11月1日至11月4日</span>嘉财有道投资额计入<span>11月5日</span>活动总金额！<a  href="javascript:void(0);" onClick="showContent_2()">详细规则&gt;</a></div>
+        	<div class="sg-ml  sg-pt sg-goods clearfix">
+                <ul class="clearfix" style="width:340px;">
+                  <li>
+                      <p>一等奖</p>
+                      <img src="images/sg_06.jpg">
+                      <p>iPhone6手机</p>
+                      <span><font style="color:#de3634; font-family:Arial, Helvetica, sans-serif; margin-right:3px;">★</font>11月5日各阵营<font style="color:#de3634">前两名</font>各送1台<br>11月6日至11月11日每日各阵营第一名送1台</span>
+                  </li>
+                </ul>
+                <div class="sg-add">
+                  <img src="images/sg_37.jpg">
+                  <span><a href="##">马上投资</a></span>
+                </div>
+            </div>
+    	</div>
+  </div>
+    
+    <div class="clearfix sg-con" id="top4">
+    	<div class="sg-no4 sg-pd">
+        	<p class="sg-pd sg-pt"><img src="images/sg_19.jpg" name="j4" id="j4"></p>
+        	<div class="sg-ml sg-about"><strong>招兵买马奖获得者</strong>是指用户所推荐好友参加活动的 <span>总人数最高者</span>。<a  href="javascript:void(0);" onClick="showContent_3()" >详细规则&gt;</a></div>
+        	<div class="sg-ml  sg-pt sg-goods sg-no4showbg clearfix">
+                <ul class="clearfix" style="width:310px;">
+                  <li style="padding-left:30px;">
+                  	<h2 class="fs_16">一等奖</h2>
+                      <img src="images/sg_06.jpg">
+                      <p>iPhone6手机</p>
+                      <span>11月11日活动截止时，前五名各送1台</span>
+                  </li>
+                </ul>
+                <div class="btnbox"><a href="##"></a></div>
+            </div>
+        </div>
+
+  </div>
+    
+    <div class="clearfix sg-con" id="top5">
+    	<div class="sg-no5">
+        	<p class="sg-pd sg-pt"><img src="images/sg_21.jpg" name="j5" id="j5"></p>
+        	<div class="sg-ml sg-about"><strong>天下一统奖获得者</strong>是指活动截止时<span>累计活动总金额最高者。</span>预热期间11月1日至11月4日嘉财有道投资额计入活动总金额！<a  href="javascript:void(0);" onClick="showContent_4()">详细规则&gt;</a></div>
+        	<div class="sg-ml  sg-pt sg-goods add-sgno5  clearfix">
+            <ul class="clearfix" style="width:680px;">
+              <li style="padding-left:30px;">
+                      <img src="images/sg_29.jpg">
+                  </li>
+                </ul>
+                <div class="sg-add" style="height:inherit;">
+                    <span><a href="##" style="margin-top:0;"  onClick="showCon_5()">马上投资</a></span>
+                </div>
+            </div>
+        </div>
+    	
+    </div>
+    
+    <div class="sg-MegCon">
+    	<h2>【活动规则】</h2>
+        
+        <ol>
+            <li>活动期间用户活动总金额=嘉财有道预定额+嘉财有道投资额（各阵营活动总金额=各阵营嘉财有道预定额+嘉财有道投资额）；</li>
+            <li>用户在预定时需先支付预定金额1%的服务定金，并应当在2014.12.31前支付预定金额，投资成功后即可获赠预定金年化0.5%的现金分红。如用户在上述时间投资，你我贷平台按投资比例返还服务定金。若没有在截止时间内支付，服务定金将不予退还；</li>
+            <li>11月1日至11月11日期间，在用户未主动选择阵营的情况下，用户投资/预定嘉财有道成功后系统将自动为用户选择一个阵营，用户享年化0.5%的投资返现；</li>
+            <li>年化0.5%的返现时间：11月1日0:00至11月4日23:59:59投资嘉财有道的用户，于11月5日0:00返现；11月5日0:00至 11月11日21:59:59投资嘉财有道的用户立即返现；11月11日22:00至12月31日24:00冲抵本次活动预定投资有返现；</li>
+            <li>每日活动结束，如果神机妙算竞猜预测某个阵营出现两名及以上预测相同的第一名，则按投资/预定后参加预测的时间早晚排名先后，剩余名次依次类推；</li>
+            <li>活动结束，如果招兵买马排行榜前5名出现多个用户推荐人数相同的情况，则按所推荐用户的活动总金额多少排名先后；</li>
+            <li>每日活动结束，如果决胜千里排行榜某个阵营出现两名及以上成绩相同的第一名，第一排序规则为实际投资金额多为先，第二排序规则为投资笔数少为先；</li>
+            <li>活动结束，如果出现多个用户最终活动总金额相同的情况，第一排序规则为实际投资金额多为先，第二排序规则为投资笔数少为先；</li>
+            <li>所有获奖用户需在支付截止时间（2014.12.31）前完成支付，才能领取奖品，否则将视为参与者主动放弃奖品，弃奖奖品不另行发放；</li>
+            <li>活动所有奖品将在中奖用户完成预定额支付后10个工作日内，安排客服与中奖者联系确认寄送地址派发奖品；</li>
+            <li>本活动将于11月11日22:00结束，如在活动期限内，活动总金额达到预投金额上限，本活动将自动提前结束。但除结束日后的神机妙算奖和决胜千里奖外，其余奖项依然照常发送；</li>
+            <li>本活动严禁一切不正当手段或刷注册舞弊行为，你我贷有权取消异常用户的活动及获奖资格。</li>
+            <li>参加活动即视为认同本活动规则条款，本活动解释权归你我贷平台所有。</li>
+        </ol>
+
+    </div>
+    	<div class="r-goodName">
+        	<a href="#top1" class="goods1">&nbsp;</a>
+            <a href="#top2" class="goods2">&nbsp;</a>
+            <a href="#top3" class="goods3">&nbsp;</a>
+            <a href="#top4" class="goods4">&nbsp;</a>
+            <a href="#top5" class="goods5">&nbsp;</a>
+            <span>&nbsp;</span>
+        </div>
+    </div>
+</div>
+
+<div class="plusBankBg"></div>
+<div class="plusBox">
+	<div class="topper clearfix">
+    	<span class="fs_18">金额记录</span>
+        <a class="fr plus_c" onClick="closeConten_0()"></a>
+    </div>
+    <div class="middle tab-list">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <th class="left">日期</th>
+                <th>嘉财有道投资额</th>
+                <th>嘉财有道预定额</th>
+                <th>我的活动金额</th>
+            </tr>
+            <tr>
+                <td>2014-11-1</td>
+                <td>1000000</td>
+                <td>1000000</td>
+                <td>2000000</td
+            ></tr>
+            <tr>
+                <td>2014-11-2</td>
+                <td>1000000</td>
+                <td>1000000</td>
+                <td>2000000</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div class="plusBox1">
+	<div class="topper clearfix">
+    	<span class="fs_18">神机妙算</span>
+        <a class="fr plus_c"  onClick="closeConten_1()"></a>
+    </div>
+    <div class="middle show-rulue">
+        <p>投资/预定嘉财有道即可参加当日竞猜夺宝；</p>
+        <p>11月1日至11月4日投资嘉财有道可于11月5日参与本活动；</p>
+        <p>竞猜自己所属阵营当日的（投资+预定）金额</p>
+        <p>&lt;金额计算时间为前日22:00-今日21:59:59，用户在11.1 0:00-11.5 21:59:59的（投资+预定）金额都计为11.5的成绩&gt;；</p>
+        <p>战果竞猜时间 每日20:00-20:59:59；</p>
+        <p>附：每日21:00-21:59:59为公开各阵营实时战况时间，当日休战时间为 22:00，休战同时公布当日获奖榜单（21:00-21:59:59用户可继续投资/预定）；</p>
+		<p>22:00之后，用户所投资/预定嘉财有道战绩计入下一个作战日。</p>
+    </div>
+</div>
+
+<div class="plusBox2">
+	<div class="topper clearfix">
+    	<span class="fs_18">决胜千里</span>
+        <a class="fr plus_c" onClick="closeConten_2()"></a>
+    </div>
+    <div class="middle show-rulue">
+        <p>11月1日至11月4日投资嘉财有道可于11月5日参与本活动；</p>
+        <p>11月5日至11月11日，当日投资或预定嘉财有道；</p>
+        <p>每个阵营当日最高（投资+预定）金额用户即可获战利品。</p>
+    </div>
+</div>
+
+<div class="plusBox3">
+	<div class="topper clearfix">
+    	<span class="fs_18">招兵买马</span>
+        <a class="fr plus_c" onClick="closeConten_3()"></a>
+    </div>
+    <div class="middle show-rulue">
+        <p>推荐者需先选择并加入一个阵营；</p>
+        <p>活动截止时，用户所举荐友人总人数前5名即可获战利品。</p>
+    </div>
+</div>
+
+<div class="plusBox4">
+	<div class="topper clearfix">
+    	<span class="fs_18">天下一统</span>
+        <a class="fr plus_c"  onClick="closeConten_4()"></a>
+    </div>
+    <div class="middle show-rulue">
+        <p>11月1日至11月11日，投资或预定嘉财有道；</p>
+		<p>活动截止时，累计（投资+预定）金额最高者即可称霸三国获最终战利品。</p>
+    </div>
+</div>
+
+<div class="fixed_nav worldClub" id="tbarout" style="display:none;">
+	<div class="navout">
+    	<a href="#j1" class="btnimg btnpos1"></a>
+        <a href="#j2" class="btnimg btnpos2"></a>
+        <a href="#j3" class="btnimg btnpos3"></a>
+        <a href="#j4" class="btnimg btnpos4"></a>
+        <a href="#j5" class="btnimg btnpos5"></a>
+        <a href="javascript:viod(0);" class="btnimg btnpos6" id='tbar' ></a>
+    </div>
+</div>
+
+</body>
+</html>
